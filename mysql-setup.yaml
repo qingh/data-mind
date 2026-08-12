@@ -5,8 +5,8 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: "654321"
-      MYSQL_DATABASE: data-mind
-      MYSQL_USER: tom
+      MYSQL_DATABASE: data_mind
+      MYSQL_USER: tommy
       MYSQL_PASSWORD: "112233"
     ports:
       - "3306:3306"
